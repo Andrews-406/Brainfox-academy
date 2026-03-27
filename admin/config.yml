@@ -1,1 +1,70 @@
+# Decap CMS Configuration — Brainfox Academy
+# This file defines what the client sees in the admin panel
 
+backend:
+  name: git-gateway
+  branch: main
+
+# Where uploaded images go (we'll use Cloudinary in Step 6)
+media_folder: "Images"
+public_folder: "/Images"
+
+collections:
+  - name: "tournament"
+    label: "Tournament"
+    files:
+
+      # ── Featured (This Week's Tournament) ──────────────────
+      - name: "featured"
+        label: "⭐ This Week's Tournament"
+        file: "data/tournaments.json"
+        description: "Update this every week with the new tournament details"
+        fields:
+          - label: "Featured Tournament"
+            name: "featured"
+            widget: "object"
+            fields:
+              - label: "Tournament Title"
+                name: "title"
+                widget: "string"
+                hint: "e.g. Brainfox Weekly Showdown #13"
+
+              - label: "Date"
+                name: "date"
+                widget: "string"
+                hint: "e.g. April 12, 2025"
+
+              - label: "Description"
+                name: "description"
+                widget: "text"
+                hint: "Short description shown on the site (2-3 sentences)"
+
+              - label: "Poster Image URL"
+                name: "poster"
+                widget: "string"
+                hint: "Paste the Cloudinary URL of your tournament poster here"
+
+              - label: "Registration Form Link"
+                name: "registration_link"
+                widget: "string"
+                hint: "Paste your Google Form or registration link here"
+
+          # ── Past Events ──────────────────────────────────────
+          - label: "Past Events"
+            name: "past_events"
+            widget: "list"
+            label_singular: "Past Event"
+            hint: "Move last week's tournament here when the new one starts"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+
+              - label: "Date"
+                name: "date"
+                widget: "string"
+
+              - label: "Poster Image URL"
+                name: "poster"
+                widget: "string"
+                hint: "Cloudinary URL of the poster"
