@@ -1,0 +1,41 @@
+{
+  "featured": {
+    "title": "Brainfox Weekly Showdown #12",
+    "date": "April 5, 2025",
+    "description": "Test your knowledge across 6 rounds of rapid-fire questions. Open to all age groups. Register before seats fill up!",
+    "poster": "https://placehold.co/800x1000/c17f3e/fff?text=Weekly+Showdown+%2312",
+    "registration_link": "https://forms.google.com/your-form-link-here"
+  },
+  "past_events": [
+    {
+      "title": "Weekly Showdown #11",
+      "date": "March 29, 2025",
+      "poster": "https://placehold.co/400x500/7a5c3a/fff?text=Showdown+%2311"
+    },
+    {
+      "title": "Weekly Showdown #10",
+      "date": "March 22, 2025",
+      "poster": "https://placehold.co/400x500/5a7a3a/fff?text=Showdown+%2310"
+    },
+    {
+      "title": "Weekly Showdown #9",
+      "date": "March 15, 2025",
+      "poster": "https://placehold.co/400x500/3a5a7a/fff?text=Showdown+%239"
+    },
+    {
+      "title": "Weekly Showdown #8",
+      "date": "March 8, 2025",
+      "poster": "https://placehold.co/400x500/7a3a5a/fff?text=Showdown+%238"
+    },
+    {
+      "title": "Weekly Showdown #7",
+      "date": "March 1, 2025",
+      "poster": "https://placehold.co/400x500/6b5a2a/fff?text=Showdown+%237"
+    },
+    {
+      "title": "Weekly Showdown #6",
+      "date": "February 22, 2025",
+      "poster": "https://placehold.co/400x500/2a6b5a/fff?text=Showdown+%236"
+    }
+  ]
+}

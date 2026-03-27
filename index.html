@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Brainfox Academy — Weekly tournament updates, registration, and past event archives." />
+  <title>Brainfox Academy · Weekly Tournaments</title>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦊</text></svg>" />
+
+  <!-- ✅ Fixed: style.css is in the same folder as index.html -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-brand">
+      <div class="nav-logo">B</div>
+      <span class="nav-name">Brainfox <span>Academy</span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#featured">This Week</a></li>
+      <li><a href="#past">Past Events</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-eyebrow">🦊 Weekly Tournament Series</div>
+    <h1>Think Fast.<br /><em>Play Bold.</em></h1>
+    <p class="hero-sub">Every week, a new challenge. Register, compete, and climb the leaderboard.</p>
+  </header>
+
+  <section class="section" id="featured">
+    <div class="section-label">
+      <div class="dot"></div>
+      <h2>This Week's Tournament</h2>
+    </div>
+
+    <div id="featured-card">
+      <div class="featured-img-wrap">
+        <img id="featured-poster" src="" alt="Featured Tournament Poster" />
+        <span class="featured-badge">🔥 Live Now</span>
+      </div>
+      <div class="featured-info">
+        <span class="tag">🏆 Open Tournament</span>
+        <h3 id="featured-title">Loading…</h3>
+        <p id="featured-date"></p>
+        <p id="featured-desc"></p>
+        <a id="register-btn" class="register-btn" href="#" target="_blank" rel="noopener">
+          Register Now <span class="arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section" id="past">
+    <div class="section-label">
+      <div class="dot"></div>
+      <h2>Past Events</h2>
+    </div>
+    <div class="past-grid" id="past-grid"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 <strong>Brainfox Academy</strong> · All rights reserved.</p>
+  </footer>
+
+  <!-- ✅ Fixed: script.js is in the same folder as index.html -->
+  <script src="script.js"></script>
+</body>
+</html>
